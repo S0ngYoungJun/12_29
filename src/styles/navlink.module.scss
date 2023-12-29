@@ -1,0 +1,57 @@
+// .linka {
+//   text-decoration: none;
+//   color: black;
+//   opacity: 0.3;
+//   font-size:1.5vw;
+//   width:15vw;
+//   height:5vh;
+
+// }
+
+// .active {
+//   /* 현재 페이지의 링크에 대한 스타일을 여기에 추가하세요 */
+//   font-weight: bold;
+//   opacity: 1;
+//   position: relative;
+//   content: '\2022';
+//   color: black;
+//   right: 0;
+//   transform: translate(0, -50%);
+// }
+
+.linka {
+  text-decoration: none;
+  color: black;
+  opacity: 0.3;
+  font-size: 1.5vw;
+  width: 15vw;
+  height: 5vh;
+  position: relative; /* 추가 */
+
+  &::before {
+    content: '';
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: -10px; /* 점의 위치를 조절합니다. 음수 값은 왼쪽으로 이동시킵니다. */
+    transform: translate(0, -50%);
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.active {
+  font-weight: bold;
+  opacity: 1;
+  text-align:right;
+
+  &::before {
+    content: '\2022'; /* 비어 있는 내용으로 설정하여 점이 나타나지 않도록 합니다. */
+    position: absolute;
+    top: 50%;
+    left: 10%; /* 점의 위치를 변경합니다. */
+    transform: translate(0, -50%);
+  }
+}
