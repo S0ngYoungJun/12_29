@@ -7,10 +7,13 @@ function Index() {
   return (
     <div className={styles.root}>
     <div className={styles.container}>
-      <div className={`${styles.div1}`}>
       <SideNav />
-        </div>
-      <div className={`${styles.div2}`}></div>
+      <div className={styles.content}>
+        <div className={styles.box1}>김현 장점</div>
+        <div className={styles.box2}>김현 단점</div>
+        <div className={styles.box3}>김현 소개</div>
+        <div className={styles.box4}>김현 일대기</div>
+      </div>
     </div>
     </div>
   );

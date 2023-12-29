@@ -11,5 +11,36 @@
   display:flex;
   width: 70vw;
   height:85vh;
-  background-color: lightcoral;
+
+}
+
+.content{
+  position: absolute;
+  z-index:30;
+  width: 55vw;
+  height: 61vh;
+  display:flex;
+  margin-left:15vw;
+  flex-direction: column;
+}
+
+.box1{
+  width: 50vw;
+  height: 10vh;
+  font-size:2vw;
+  font-weight: 800;
+}
+
+.box2{
+  width: 50vw;
+  height: 30vh;
+}
+.box3{
+  width: 50vw;
+  height: 5vh;
+  font-size:1.5vw;
+}
+.box4{
+  width: 50vw;
+  height: 15vh;
 }

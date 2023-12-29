@@ -1,36 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+1. 실행하기 => npm run dev
 
-## Getting Started
+저는 crate next로 기본 파일을 만들고
+페이지를 담당하는 app폴더와 scss를 모아놓은 styles 폴더와 컴포넌트들을 모아놓은 ui폴더로 나눴습니다.
+app폴더를 보면 app라우터 방식으로 이동하기위해 학원생들 폴더 17개 만들고 각각 페이지를 만들었습니다...
 
-First, run the development server:
+ui폴더는 입력창을 담당하는 maindiv 컴포넌트와 사이드에서 학원생들 링크버튼을 만드는 nav-links 컴포넌트
+그리고 둘을 모아놓은 sidenav컴포넌트입니다.( 이름은 본래 목적과 좀 달라졌는데 그냥 납뒀습니다...)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+중간에 만들다 제가 생각치 못한 부분에 막혀서(next router , 서버렌더링, 상태관리 등등) 아직 정리하지 못한 코드들이 좀 있습니다.
+그리고 원래는 json파일이나 db에 배열 만들어서 정보를 가져오려 했는데 막힌 부분과 부족한 부분이 있어서 그냥 컴포넌트에 배열을 작성했습니다.
+(일단 작동은 전부 합니다.)
+next와 리액트에 대한 이해도가 부족했던것 같고 주말에 리액트부터 다시 만들어보겠습니다.

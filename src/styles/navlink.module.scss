@@ -1,24 +1,8 @@
-// .linka {
-//   text-decoration: none;
-//   color: black;
-//   opacity: 0.3;
-//   font-size:1.5vw;
-//   width:15vw;
-//   height:5vh;
-
-// }
-
-// .active {
-//   /* 현재 페이지의 링크에 대한 스타일을 여기에 추가하세요 */
-//   font-weight: bold;
-//   opacity: 1;
-//   position: relative;
-//   content: '\2022';
-//   color: black;
-//   right: 0;
-//   transform: translate(0, -50%);
-// }
-
+.linkname{
+margin:0;
+padding:0;
+font-size:1.5vw;
+}
 .linka {
   text-decoration: none;
   color: black;
@@ -27,6 +11,7 @@
   width: 15vw;
   height: 5vh;
   position: relative; /* 추가 */
+ 
 
   &::before {
     content: '';

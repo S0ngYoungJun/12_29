@@ -1,0 +1,32 @@
+.main{
+  width:55vw;
+  height:85vh;
+  display:flex;
+  flex-direction: column;
+}
+
+.name{
+  width:55vw;
+  height: 70vh;
+}
+
+.show{
+  width:55vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  width: 50vw;
+  height: 4vh;
+  border-radius: 20px;
+  border:none;
+}
+
+.button{
+  width: 50vw;
+  height: 10vh;
+  border-radius: 20px;
+  border:none;
+}

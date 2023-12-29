@@ -1,7 +1,7 @@
-.sidemenu{
-  width: 15vw;
-  height: 85vh;
-  display: flex;
+.root{
+  display:flex;
+  width: 70vw;
+  height:85vh;
 }
 
 .sidelink{
@@ -11,4 +11,12 @@
   display: flex;
   flex-direction: column;
   word-break:break-all;
+  margin:0;
+  padding:0;
+  align-items: center;
+}
+.mainpage{
+  width:55vw;
+  height:85vh;
+  display:flex;
 }
